@@ -102,8 +102,8 @@ node:internal/modules/cjs/loader:936
   
   occurs when there is a mistake with the URL we are using.
   
-  node:internal/errors:464
-    ErrorCaptureStackTrace(err);
+  > node:internal/errors:464
+    > ErrorCaptureStackTrace(err);
     ^
 
 > Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
