@@ -77,28 +77,28 @@ node:internal/modules/cjs/loader:936
   throw err;
   ^
 
-Error: Cannot find module '../routes/auth'
-Require stack:
-- C:\Users\SRISHTI\reactblog\api\index.js
-    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15) 
-    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
-    at Module.require (node:internal/modules/cjs/loader:1005:19)
-    at require (node:internal/modules/cjs/helpers:102:18)
-    at Object.<anonymous> (C:\Users\SRISHTI\reactblog\api\index.js:6:19)
-    at Module._compile (node:internal/modules/cjs/loader:1103:14)
-    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)   
-    at Module.load (node:internal/modules/cjs/loader:981:32)
-    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {
-  code: 'MODULE_NOT_FOUND',
-  requireStack: [ 'C:\\Users\\SRISHTI\\reactblog\\api\\index.js' ]
-}
-[nodemon] app crashed - waiting for file changes before starting...
+> Error: Cannot find module '../routes/auth'
+> Require stack:
+> - C:\Users\SRISHTI\reactblog\api\index.js
+    > at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15) 
+    > at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    > at Module.require (node:internal/modules/cjs/loader:1005:19)
+    > at require (node:internal/modules/cjs/helpers:102:18)
+    > at Object.<anonymous> (C:\Users\SRISHTI\reactblog\api\index.js:6:19)
+    > at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    > at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)   
+    > at Module.load (node:internal/modules/cjs/loader:981:32)
+    > at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    > at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {
+  > code: 'MODULE_NOT_FOUND',
+  > requireStack: [ 'C:\\Users\\SRISHTI\\reactblog\\api\\index.js' ]
+> }
+> [nodemon] app crashed - waiting for file changes before starting...
   
   
   ussualy occurs when we do not put the correct name of any folder, or incorrect path
   
-  Error: connect ECONNREFUSED 127.0.0.1🈵
+  > Error: connect ECONNREFUSED 127.0.0.1🈵
   
   occurs when there is a mistake with the URL we are using.
   
