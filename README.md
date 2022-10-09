@@ -106,14 +106,14 @@ Require stack:
     ErrorCaptureStackTrace(err);
     ^
 
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:371:5)
-    at ServerResponse.setHeader (node:_http_outgoing:576:11)
-    at ServerResponse.header (C:\Users\SRISHTI\reactblog\api\node_modules\express\lib\response.js:794:10)
-    at ServerResponse.send (C:\Users\SRISHTI\reactblog\api\node_modules\express\lib\response.js:174:12)
-    at ServerResponse.json (C:\Users\SRISHTI\reactblog\api\node_modules\express\lib\response.js:278:15)
-    at C:\Users\SRISHTI\reactblog\api\routes\auth.js:35:28 {
-  code: 'ERR_HTTP_HEADERS_SENT'
+> Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    > at new NodeError (node:internal/errors:371:5)
+    > at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    > at ServerResponse.header (C:\Users\SRISHTI\reactblog\api\node_modules\express\lib\response.js:794:10)
+    > at ServerResponse.send (C:\Users\SRISHTI\reactblog\api\node_modules\express\lib\response.js:174:12)
+    > at ServerResponse.json (C:\Users\SRISHTI\reactblog\api\node_modules\express\lib\response.js:278:15)
+    > at C:\Users\SRISHTI\reactblog\api\routes\auth.js:35:28 {
+  > code: 'ERR_HTTP_HEADERS_SENT'
 }
 [nodemon] app crashed - waiting for file changes before starting...
   
